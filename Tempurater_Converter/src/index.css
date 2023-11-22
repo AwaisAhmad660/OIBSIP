@@ -1,0 +1,89 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.whole {
+  background-color: lightgray;
+  height: 100vh;
+  position: relative;
+}
+
+
+.mainContainer {
+  margin: 0 auto !important;
+  padding-top:20px ;
+  height: 50vh;
+  width: 400px;
+  padding-left: 50px;
+  background-color: #fff;
+  border-radius: 12px;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+  padding-right: 30px !important;
+}
+
+.tempInput {
+  border-bottom: 1px solid rgb(145, 145, 145);
+  width: 100px;
+
+  margin-top: 40px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  outline: none;
+}
+
+
+input:focus-visible {
+  border: none;
+}
+.result{
+    border-bottom: 1px solid rgb(145, 145, 145);
+      width: 100px;
+}
+
+button{
+  background-color:cornflowerblue;
+  padding: 4px 8px;
+  border-radius: 8px;
+  width: 90px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
