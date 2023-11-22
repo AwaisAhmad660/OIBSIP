@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+.flagImg {
+    margin-left: 12px;
+    width: 5vw;
+    height: 5vh;
+}
+.title{
+background-image: linear-gradient(265deg,
+            hsl(0deg 0% 100%) 0%,
+            hsl(99deg 24% 60%) 49%,
+            hsl(103deg 98% 21%) 100%);
+        }
+
+.khanImage {
+    width: 80%;
+
+}
+
+.biography {
+
+    text-align: center;
+    background-image: linear-gradient(265deg,
+                hsl(11deg 100% 51%) 0%,
+                hsl(21deg 100% 44%) 2%,
+                hsl(30deg 100% 37%) 7%,
+                hsl(40deg 100% 31%) 18%,
+                hsl(52deg 100% 24%) 36%,
+                hsl(69deg 100% 22%) 59%,
+                hsl(85deg 100% 21%) 81%,
+                hsl(103deg 98% 21%) 100%);
+
+}
+.biography>p{
+    width: 30%;
+}
