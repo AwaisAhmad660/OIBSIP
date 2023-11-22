@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Playfair Display', serif; */
+}
+
+.logo>img {
+  width: 50px;
+  height: 50px;
+  color: red;
+}
+
+.navbtn {
+  border: 1px solid #6E07F3;
+  padding: 15px;
+
+}
+
+.heroTitle {
+  font-size: 40px;
+  font-weight: 800px !important;
+}
+
+.heroImage>img {
+  width: 80%;
+  max-height: 400px;
+}
+
+
+.serviceContainer {
+  background-color: #6E07F3;
+  height: 400px;
+}
+
+.serviceImage {
+  width: 72px;
+  height: 72px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.serviceImage>img {
+  width: 45px;
+  height: 36px;
+}
+
+.colorpurple {
+  color: #6E07F3;
+
+}
+
+.services {
+  background-color: #fff;
+  width: 80%;
+  position: relative;
+  top: -100px;
+}
+
+.serviceTitle {
+  margin-top: 1rem !important;
+}
+
+.bio {
+  width: 50%;
+}
+
+
+
+
+.flashcards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.flashcards {
+  width: 80%;
+}
+
+.flashcards div {
+
+  border-radius: 7px;
+  /* aspect-ratio: 2 / 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+div.selected:hover {
+  border: 1px solid#092f4f;
+  background-color: #092f4f;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cardimage {
+  width: 100%;
+}
+
+.seeMorebtn {
+  width: 500px;
+  margin-top: 50px !important;
+  margin-bottom: 150px!important;
+}
+
+.seeMorebtn>a {
+  border: 1px solid #6E07F3;
+  text-decoration: none;
+  color: #6E07F3;
+}
+
+.seeMorebtn>a:hover {
+  background-color: #6E07F3;
+  color: #fff;
+}
+
+.seeMoreImage {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.pngImage {
+  width: 235px;
+}
+
+.startups {
+  width: 80%;
+  position: relative;
+  top: -100px;
+ 
+}
+
+.junkbox {
+  width: 40%;
+}
+
+.icons {
+  width: 5%;
+}
+
+.startupcard{
+background-color: #fff;
+}
+.introDetails{
+  width: 50%;
+}
+
+.footerHead{
+  width: 80%;
+  background-color: #141c3a;
+  position: relative;
+  bottom: -100px;
+}
+.footerIconmain{
+  width: 5%;
+}
+.footerIcon{
+  width: 3%;
+  padding-right: 12px;
+}
+.footerContent{
+
+  background-color: #6E07F3;
+}
+
+.footerContent>div {
+  padding-top: 120px;
+}
+.copyright{
+  width: 1%;
+}
+
+.bulmaImg{
+  width: 14%;
+}
